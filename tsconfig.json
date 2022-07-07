@@ -1,0 +1,9 @@
+{
+  "include": ["src"],
+  "compilerOptions": {
+    "outDir": "build",
+    "target": "ES6",
+    "lib": ["ES6"], // lib속성은 타입스크립트에게 어떤 API를 사용하고 어떤 환경에서 코드를 실행하는지를 말해준다.
+    "strict": true
+  }
+}
